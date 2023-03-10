@@ -5,7 +5,7 @@ import joblib
 import numpy as np
 import pandas as pd
 import plotly.graph_objects as go
-import PIL
+from PIL import Image
 
 
 st.set_page_config(page_title='Farm Yield Prediction Model',layout="wide")
